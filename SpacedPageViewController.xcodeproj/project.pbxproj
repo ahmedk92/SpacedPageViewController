@@ -12,6 +12,7 @@
 		28FFFA00228796530036139F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FFF9FE228796530036139F /* Main.storyboard */; };
 		28FFFA02228796550036139F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28FFFA01228796550036139F /* Assets.xcassets */; };
 		28FFFA05228796550036139F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28FFFA03228796550036139F /* LaunchScreen.storyboard */; };
+		28FFFA0D228796C00036139F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FFFA0C228796C00036139F /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		28FFFA01228796550036139F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28FFFA04228796550036139F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28FFFA06228796550036139F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28FFFA0C228796C00036139F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				28FFFA01228796550036139F /* Assets.xcassets */,
 				28FFFA03228796550036139F /* LaunchScreen.storyboard */,
 				28FFFA06228796550036139F /* Info.plist */,
+				28FFFA0C228796C00036139F /* PageViewController.swift */,
 			);
 			path = SpacedPageViewController;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28FFFA0D228796C00036139F /* PageViewController.swift in Sources */,
 				28FFF9FD228796530036139F /* ViewController.swift in Sources */,
 				28FFF9FB228796530036139F /* AppDelegate.swift in Sources */,
 			);
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = SpacedPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCX3Z4NU85;
 				INFOPLIST_FILE = SpacedPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
